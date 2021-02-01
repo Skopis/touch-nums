@@ -1,0 +1,106 @@
+body {
+    background-image: url("img/cropped-zen-1.jpg"); 
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgb(151, 148, 124);
+    padding: 10px;
+    text-align: center;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#block1, #block2{
+    display:inline;
+}
+#block1{
+    position: absolute;
+    right:91px
+}
+#block2{
+    background-color: sandybrown;
+    position: absolute;
+    padding: 10px;
+    left:200px;
+    width: 80px;
+    font-size: 20px;
+    color: rgb(35, 65, 48);
+    height: 20px;
+    border-radius: 20%;
+    background-color:  rgb(141, 126, 61);
+    font-family: "Lucida Console", "Courier New", monospace;
+    opacity: 0.8;
+    border: 3px solid rgb(91, 110, 139);;
+}
+
+button{
+    width: 200px;
+    font-size: 30px;
+    height: 40px;
+    border-radius: 20%;
+    background-color:  rgb(59, 71, 90);
+    font-family: "Lucida Console", "Courier New", monospace;
+    opacity: 0.65;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(91, 110, 139);
+    font-weight: bold;
+}
+.button2{
+    width: 150px;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 20%;
+    background-color:  rgb(38, 60, 95);
+    font-family: "Lucida Console", "Courier New", monospace;
+    opacity: 0.6;
+}
+.button2:hover{
+    background-color: rgb(61, 82, 114);
+}
+
+.board td {
+    background-color: rgb(158, 147, 95);
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 80px;
+    height: 50px;
+    font-size: 30px;
+    color:rgb(82, 85, 52);
+    text-align: center;
+    border-radius: 20% 20% 20% 20% ;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.board td:hover {
+    background-color:  rgb(59, 71, 90);
+    transition: 1s;
+    cursor: pointer;
+}
+.board .right{
+    background-color: rgb(59, 71, 90);
+    font-weight: bold;
+    color:rgb(107, 110, 72);
+    opacity: 0.8;
+    transition: 2s;
+}
+
+.victory{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+    display: none;
+    z-index: 10;
+    position: absolute;
+    top: 45%;
+    border-radius: 20%;
+    background-color:rgb(107, 110, 72);
+    padding: 20px;
+    opacity: 0.95;
+    border: 3px solid rgb(91, 110, 139);;
+    color:rgb(38, 60, 95);
+    font-weight: bold;
+    left: 43%;
+}
